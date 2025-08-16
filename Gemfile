@@ -10,7 +10,7 @@ group :development, :test do
   gem "draper"
   gem "devise"
 
-  gem "rails", "~> 8.0.0"
+  gem "rails", "~> 8.0.2", ">= 8.0.2.1"
 
   gem "sprockets-rails"
   gem "ransack", ">= 4.2.0"
@@ -29,10 +29,10 @@ group :test do
   gem "simplecov-cobertura", require: false
   gem "cucumber-rails", require: false
   gem "cucumber"
-  gem "database_cleaner-active_record"
+  gem "database_cleaner-active_record", ">= 2.2.2"
   gem "launchy"
   gem "parallel_tests"
-  gem "rspec-rails"
+  gem "rspec-rails", ">= 8.0.2"
   gem "sqlite3", platform: :mri
 
   # Translations
