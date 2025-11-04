@@ -38,7 +38,7 @@ group :test do
   # Translations
   gem "i18n-tasks"
   gem "i18n-spec"
-  gem "rails-i18n" # Provides default i18n for many languages
+  gem "rails-i18n" , ">= 8.0.2" # Provides default i18n for many languages
 end
 
 group :rubocop do
